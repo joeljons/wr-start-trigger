@@ -8,16 +8,17 @@
 #define RED_PIN 4
 #define YELLOW_PIN 3
 #define GREEN_PIN 2
+#define BUR_DEFAULT_STATE_PIN 6
 
-#define BUR_OPEN HIGH
-#define BUR_CLOSED !BUR_OPEN
 #define BUR_NEED_TO_BE_CLOSED_BEFORE_REOPEN_MS 1000
 
 #define STATE_OPEN 0
 #define STATE_CLOSING 1
 #define STATE_CLOSED 2
 
-int state = BUR_OPEN;
+int BUR_OPEN = -1;
+int BUR_CLOSED = -1;
+int state = STATE_OPEN;
 unsigned long burClosedLast = 0;
 
 int melody[] = {
@@ -69,6 +70,10 @@ void setup() {
   pinMode(GREEN_PIN, OUTPUT);
 
   pinMode(TRIGGER_PIN, INPUT_PULLUP);
+  
+  pinMode(BUR_DEFAULT_STATE_PIN, INPUT_PULLUP);
+  BUR_OPEN = digitalRead(BUR_DEFAULT_STATE_PIN);
+  BUR_CLOSED = !BUR_OPEN;
 
   teDeum();
 
