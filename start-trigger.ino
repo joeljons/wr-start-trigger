@@ -139,11 +139,3 @@ void light(int green, int yellow, int red) {
   digitalWrite(YELLOW_PIN, yellow);
   digitalWrite(GREEN_PIN, green);
 }
-
-/*
-  Hörlurskabeln till telefonen
-  Tip (left): blå
-  Upper ring (right): ?
-  Lower ring (ground): guldiga korta (grön sladd)
-  Sleeve (microphone): vit (röd sladd)
-*/
