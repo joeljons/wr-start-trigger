@@ -5,7 +5,7 @@ En låda som triggas av switchen vid start-buren och skickar en ljudsignal till 
 Koppla in switchen från start-buren till lådan med banankontakter.
 Koppla lådan till telefonen. På Karlstads och Södertäljes lådor är det viktigt att stoppa in ljud-kabeln åt rätt håll.
 
-Om man inte har en antik telefon behöver man en adapter för att få in ljudsladden. Viktigt att den ska fungera med mikrofon. Det är även praktiskt om den kan ta laddning samtidigt. Jag rekommenderar en [Belkin 3,5 mm Audio + Charge Rockstar lightning](https://www.prisjakt.nu/produkt.php?p=5065369). 
+Om man inte har en antik telefon behöver man en adapter för att få in ljudsladden. Viktigt att den ska fungera med mikrofon. Det är även praktiskt om den kan ta laddning samtidigt. Jag rekommenderar en [Belkin 3,5 mm Audio + Charge Rockstar lightning](https://www.prisjakt.nu/produkt.php?p=5065369) eller en för USB-C om din telefon har det. . 
 
 Beroende på om switchen på buren är öppen/stängd när buren är öppen/stängd kan man behöva konfigurera lådan. Koppla ur den gula kabeln (finns ej på Södertäljes låda). Behöver du sätta tillbaka den så ska den gå mellan `D6` och `GND`.
 
